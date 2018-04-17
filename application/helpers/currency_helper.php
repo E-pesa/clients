@@ -1,6 +1,6 @@
 <?php
 function to_currency($number)
 {
-	return '$'.number_format($number, 2, '.', '');
+	return 'tsh-'.number_format($number, 2, '.', '');
 }
 ?>
